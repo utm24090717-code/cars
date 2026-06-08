@@ -13,4 +13,4 @@ mongoose.connect(process.env.url_bd)
 const app = express();
 app.use(cors());
 app.listen(4000, () => console.log("Spuerto 4000"));
-
+test();
