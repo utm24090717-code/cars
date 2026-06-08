@@ -10,7 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^7.2.0"
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.2.0",
+    "mongose": "^0.0.2-security"
   },
-  "devDependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utm24090717-code/cars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/utm24090717-code/cars/issues"
+  },
+  "homepage": "https://github.com/utm24090717-code/cars#readme"
 }
