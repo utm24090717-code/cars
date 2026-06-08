@@ -6,4 +6,4 @@ const Esqueleto_Tabla = new Schema({
     Nombre : String
 })
 
-export const Tabla = new model("Tabla de coches", Esqueleto_Tabla) 
+export const Tabla = new model("Tabla de coches", Esqueleto_Tabla)

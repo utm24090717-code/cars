@@ -2,15 +2,15 @@ import mongose from 'mongoose';
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import {Tabla} from './backend/models/modelo.js';
+import {abla} from './backend/models/modelo.js';
 
 
 dotenv.config();
-mongoose.connect(process.env.url_bd)
+mongoose.connect(process.env.url_)
 .then(() => console.log('Se conecto'))
 
-.catch((error) => console.error('Error:', error));
+.catch((error) => console.error('Error:', error))
 const app = express();
 app.use(cors());
-app.listen(4000, () => console.log("Spuerto 4000"));
+app.listen(4000, () => console.log("Spuerto 4000"))
 test();
