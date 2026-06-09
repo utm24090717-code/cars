@@ -1,9 +1,12 @@
 {
   "name": "cars",
   "version": "1.0.0",
+  "type":"module",
   "description": "",
-  "main": "index.js",
-  "scripts": {
+  "main": "app.js",
+ "scripts": {
+    "start": "node app.js",
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,7 +17,7 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongodb": "^7.2.0",
-    "mongose": "^0.0.2-security"
+    "mongoose": "^9.6.3"
   },
   "repository": {
     "type": "git",
@@ -23,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/utm24090717-code/cars/issues"
   },
-  "homepage": "https://github.com/utm24090717-code/cars#readme"
+  "homepage": "https://github.com/utm24090717-code/cars#readme",
+  "devDependencies": {
+    "@types/node": "^25.9.2"
+  }
 }
