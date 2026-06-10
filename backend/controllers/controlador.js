@@ -1,17 +1,17 @@
 import { Tabla } from "../models/modelo.js"
 Tabla.create({
     marca : "Toyota",
-    modelo : 2020,
+    modelo : "2020",
     nombre : "Yaris"
 },
 {
     marca : "Nissan",
-    modelo : 2000,
+    modelo : "2000",
     nombre : "Tsuru"
 },
 {
     marca : "Honda",
-    modelo : 2004,
+    modelo : "2004",
     nombre : "Civic"
 }
 )
